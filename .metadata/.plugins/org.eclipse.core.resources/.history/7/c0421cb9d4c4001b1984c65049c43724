@@ -1,0 +1,6 @@
+package com.veera.beans;
+
+@Component("java")
+public class JavaCourseMaterial {
+
+}

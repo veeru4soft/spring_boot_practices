@@ -1,0 +1,18 @@
+package com.veera.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component("dotNet")
+public class DotNetCourseMaterial implements ICourseMaterial {
+
+	@Override
+	public String courseContent() {
+		System.out.println("JavaCourseMaterial.courseContent()");
+	}
+
+	@Override
+	public double coursePrice() {
+		System.out.println("JavaCourseMaterial.courseContent()");
+	}
+
+}

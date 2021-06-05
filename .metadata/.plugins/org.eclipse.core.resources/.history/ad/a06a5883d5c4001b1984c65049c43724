@@ -1,0 +1,6 @@
+package com.veera.beans;
+
+@Component("UI")
+public class UICourseMaterial {
+
+}

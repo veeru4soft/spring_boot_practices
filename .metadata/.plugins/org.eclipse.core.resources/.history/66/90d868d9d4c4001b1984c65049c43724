@@ -1,0 +1,20 @@
+package com.veera.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component("java")
+public class JavaCourseMaterial implements ICourseMaterial {
+
+	@Override
+	public String courseContent() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double coursePrice() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

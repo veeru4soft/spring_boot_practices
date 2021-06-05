@@ -1,0 +1,19 @@
+package com.veera.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component("UI")
+public class UICourseMaterial implements ICourseMaterial{
+
+	@Override
+	public String courseContent() {
+		System.out.println("JavaCourseMaterial.courseContent()");
+	}
+
+	@Override
+	public double coursePrice() {
+		System.out.println("JavaCourseMaterial.courseContent()");
+		return 200;
+	}
+
+}

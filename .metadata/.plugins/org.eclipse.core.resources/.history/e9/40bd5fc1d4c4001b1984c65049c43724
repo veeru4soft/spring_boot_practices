@@ -1,0 +1,8 @@
+package com.veera.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component("java")
+public class JavaCourseMaterial implements ICourseMaterial {
+
+}
