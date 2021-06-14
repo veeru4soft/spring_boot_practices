@@ -1,8 +1,0 @@
-package com.veera.beans;
-
-import org.springframework.stereotype.Component;
-
-@Component("dotNet")
-public class DotNetCourseMaterial implements ICourseMaterial {
-
-}

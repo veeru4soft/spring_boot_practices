@@ -1,8 +1,0 @@
-package com.veera.beans;
-
-import org.springframework.stereotype.Component;
-
-@Component("stud")
-public final class Student {
-
-}
