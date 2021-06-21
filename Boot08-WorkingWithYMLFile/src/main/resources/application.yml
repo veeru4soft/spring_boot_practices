@@ -1,0 +1,26 @@
+#simple properties
+employee:
+  info:
+    id: 10101010
+    name: veerababu
+    #Array properties
+    nick-names:
+       -veera
+       -veer
+       -veeru
+    #List 
+    team-members:
+       -ramesh
+       -rajesh
+    phone-numbers: [9999999, 8888888, 7777777]
+    #Map
+    idDetails:
+       adharNo: 55555555
+       panNo: aaalll8898
+       voterId: dsfa88988
+    #HAS-A
+    comp-details:
+       name: TCS
+       location: mumbai
+       size: 10000
+    
