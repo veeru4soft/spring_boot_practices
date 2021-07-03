@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=BootDataJPA01-CrudRepository/C:\/Program Files\/JavaSoftware\/lib\/rt.jar=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1568737204716"/>
+<typeInfo handle="=BootDataJPA01-CrudRepository/C:\/Users\/veeru\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.5.2\/spring-data-commons-2.5.2.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-commons=/=/maven.version=/2.5.2=/=/maven.scope=/compile=/&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1625191921109"/>
+<typeInfo handle="=BootDataJPA01-CrudRepository/C:\/Users\/veeru\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.5.2\/spring-data-jpa-2.5.2.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.5.2=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository.support(CrudMethodMetadata.class[CrudMethodMetadata" modifiers="1537" timestamp="1625191920383"/>
+</typeInfoHistroy>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="SpringBootSecondApp"/>
-<aop-project name="SpringBootFirstApp"/>
+<aop-project name="BootDataJPA01-CrudRepository"/>
 </aop-reference-model>
