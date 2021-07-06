@@ -20,4 +20,23 @@ public class CoronaVaccineMgmtServiceImpl implements ICoronaVaccineMgmtService {
 		return savedVaccine != null ? "Vacccine registered/updated successfully with"+savedVaccine.getRegNo() : "Vaccine registration/updated failed";
 	}
 
+	@Override
+	public Iterable<CoronaVaccine> registerInBatch(Iterable<CoronaVaccine> vaccines) {
+	     if(vaccines!=null)
+ 		     return  coronarepo.saveAll(vaccines);
+	     else
+	    	 throw new IllegalArgumentException("batch insertion not done");
+	}
+	
+	@Override
+	public long getVaccinesCount() {
+		return coronarepo.count();
+	}
+	
+	
+	@Override
+	public boolean checkVaccineAvailabilityByRegNo(long regNo) {
+		return coronarepo.existsById(regNo);
+	}
+
 }
